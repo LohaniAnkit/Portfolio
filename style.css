@@ -192,25 +192,6 @@ section {
 .section__text__p2 {
   font-size: 1.75rem;
   margin-bottom: 1rem;
-  display: inline-block;
-  width: 100%;
-  white-space: nowrap;
-  overflow: hidden;
-  animation: typing 5s, cursor 0.4s step-end infinite alternate;
-}
-
-/* Cursor Blinking */
-@keyframes cursor {
-  50% {
-    border-color: transparent;
-  }
-}
-
-/* Typing Effects */
-@keyframes typing {
-  from {
-    width: 0;
-  }
 }
 
 .title {
